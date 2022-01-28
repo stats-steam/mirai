@@ -374,7 +374,7 @@ function init() {
 	  name: kDataSetName,
 	  title: '無作為調査',
 	  dimensions: {width: 550, height: 300},
-	  version: '1.94'
+	  version: '1.95'
 	}).then(function (iResult) {
 	  // get interactive state so we can save the sample set index.
 	  myState = codapInterface.getInteractiveState();
