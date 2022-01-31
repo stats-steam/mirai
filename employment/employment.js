@@ -93,6 +93,10 @@ function set_kDataSetTemplate_attrs() {
 
 function data_input() {
 	if(Number($("#limit").val()) > 2000) $("#limit").val(2000);
+	if($("#dataset").val() == 0) {
+		alert("年度を選んでください。");
+		return;
+	}
 	get_musakui($("#dataset").val(),$("#pref").val(),Number($("#limit").val()));
 	$("#submitButton1_2").prop("disabled", true);
 }
@@ -374,7 +378,7 @@ function init() {
 	  name: kDataSetName,
 	  title: '無作為調査',
 	  dimensions: {width: 550, height: 300},
-	  version: '1.95'
+	  version: '1.01'
 	}).then(function (iResult) {
 	  // get interactive state so we can save the sample set index.
 	  myState = codapInterface.getInteractiveState();
