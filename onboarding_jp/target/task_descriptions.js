@@ -177,11 +177,11 @@ allAccomplishedFeedback = React.createElement(
   React.createElement(
     'ul',
     null,
-    React.createElement(
+    /*React.createElement(
       'li',
       null,
       'CODAPにデータをドラッグする'
-    ),
+    ),*/
     React.createElement(
       'li',
       null,
