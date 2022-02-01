@@ -80,7 +80,7 @@ class HelpLink extends React.Component {
     return React.createElement(
       'scan',
       { className: 'App-help', onClick: this.handleHelpClick },
-      '見てみる'
+      '表示する'
     );
   }
 }
