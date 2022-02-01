@@ -385,7 +385,7 @@ function getStarted() {
 
   codapInterface.init({
     title: "Getting started with CODAP",
-    version: "1.09",
+    version: "1.10",
     dimensions: {
       width: 600,
       height: 550

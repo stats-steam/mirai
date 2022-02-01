@@ -17,13 +17,13 @@ taskDescriptions = {
         React.createElement(
           'em',
           null,
-          'height'
+          ''
         ),
         '',
         React.createElement(
           'em',
           null,
-          'age'
+          ''
         ),
         ' 素晴らしい散布図ですね。縦軸に身長、横軸に年齢があるといいですね。'
       )
@@ -79,11 +79,11 @@ taskDescriptions = {
       React.createElement(
         'p',
         null,
-        'Selection is important, but so is ',
+        '',
         React.createElement(
           'em',
           null,
-          'deselection!'
+          '選択も重要ですが、選択しないことも重要です！'
         )
       )
     )
@@ -98,13 +98,13 @@ taskDescriptions = {
       React.createElement(
         'p',
         null,
-        'You pressed the graph\'s ',
+        '',
         React.createElement(
           'em',
           null,
-          'Rescale'
+          ''
         ),
-        ' button so that all the points are visible and spread out as much as possible.'
+        ' グラフの大きさ修正をしたことで、すべてのポイントが見えるようにできる限り広げることができました。'
       )
     )
   }, {
@@ -119,12 +119,12 @@ taskDescriptions = {
       React.createElement(
         'p',
         null,
-        'Legendary! Notice that the points are nicely colored according to the scheme laid out in the legend.'
+        '素晴らしい！凡例と同じように、ポイントがきれいに色づけされていますね。'
       ),
       React.createElement(
         'p',
         null,
-        'Pro tip: You can select all the points in one category by clicking on the legend key.'
+        'プロからのアドバイス：凡例キーをクリックすると、1つのカテゴリーのすべてのポイントを選択することができます。'
       )
     )
   }],
@@ -156,7 +156,7 @@ allAccomplishedFeedback = React.createElement(
   React.createElement(
     'p',
     null,
-    'Congratulations! You\'ve done the following:'
+    'おめでとうございます。あなたは以下のことを行いました：'
   ),
   React.createElement(
     'ul',
@@ -164,44 +164,44 @@ allAccomplishedFeedback = React.createElement(
     React.createElement(
       'li',
       null,
-      'Made a scatterplot'
+      '散布図の作成'
     ),
     React.createElement(
       'li',
       null,
-      'Used ',
+      '',
       React.createElement(
         'em',
         null,
-        'marquee selection'
+        ''
       ),
-      ' to select some useful cases'
+      '選択範囲を使って、有用なデータを選択'
     ),
     React.createElement(
       'li',
       null,
-      'Gotten cases you don/\'t want to be bothered with by hiding them'
+      '必要のないデータを非表示にする'
     ),
     React.createElement(
       'li',
       null,
-      'Rescaled the scatterplot to spread the points out'
+      '散布図の大きさを修正してポイントを分散して表示する'
     ),
     React.createElement(
       'li',
       null,
-      'Added a legend variable to the graph'
+      'グラフに凡例値を追加'
     ),
     React.createElement(
       'li',
       null,
-      'Deselected cases so that none are selected'
+      'すべてのデータを非選択にする'
     )
   ),
   React.createElement(
     'p',
     null,
-    'These are useful CODAP skills!'
+    'これらはCODAPの有用なスキルです！'
   )
 );
 
