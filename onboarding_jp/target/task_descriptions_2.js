@@ -3,7 +3,7 @@ hasMouse = false; //!('ontouchstart' in window);
 
 taskDescriptions = {
   descriptions: [{
-    key: 'MakeScatterplot', label: 'g’·vs”N—î‚ÌU•z}‚ğì‚Á‚Ä‚­‚¾‚³‚¢B',
+    key: 'MakeScatterplot', label: 'èº«é•·vså¹´é½¢ã®æ•£å¸ƒå›³ã‚’ä½œã£ã¦ãã ã•ã„ã€‚',
     url: './resources/MakeScatterplot.mp4',
     operation: 'attributeChange', type: '',
     requiresSpecialHandling: true,
@@ -29,7 +29,7 @@ taskDescriptions = {
       )
     )
   }, {
-    key: 'SelectCases', label: '‘I‘ğ”ÍˆÍ‚ğƒhƒ‰ƒbƒO‚µ‚Ä•¡”‚Ìƒ|ƒCƒ“ƒg‚ğˆÍ‚ñ‚Å‚­‚¾‚³‚¢B',
+    key: 'SelectCases', label: 'é¸æŠç¯„å›²ã‚’ãƒ‰ãƒ©ãƒƒã‚°ã—ã¦è¤‡æ•°ã®ãƒã‚¤ãƒ³ãƒˆã‚’å›²ã‚“ã§ãã ã•ã„ã€‚',
     url: './resources/SelectCases.mp4',
     operation: 'selectCases',
     constraints: [{ property: 'cases', value: true }],
@@ -49,7 +49,7 @@ taskDescriptions = {
       )
     )
   }, {
-    key: 'HideUnselected', label: '‘I‘ğ‚³‚ê‚Ä‚¢‚È‚¢ƒf[ƒ^‚ğ”ñ•\¦‚É‚µ‚Ä‚­‚¾‚³‚¢B',
+    key: 'HideUnselected', label: 'é¸æŠã•ã‚Œã¦ã„ãªã„ãƒ‡ãƒ¼ã‚¿ã‚’éè¡¨ç¤ºã«ã—ã¦ãã ã•ã„ã€‚',
     url: './resources/HideUnselected.mp4',
     operation: 'hideUnselected', type: '',
     prereq: 'SelectCases',
@@ -211,12 +211,12 @@ infoFeedback = React.createElement(
   React.createElement(
     'p',
     null,
-    '‚±‚ÌCODAPŒ¤C—pƒvƒ‰ƒOƒCƒ“‚ÍV‚µ‚¢CODAPƒ†[ƒU[‚Ì‚½‚ß‚Éì‚ç‚ê‚Ü‚µ‚½BiFrame‚Æ‚µ‚Ä“®‚¢‚Ä‚¢‚Ü‚·B“Á’è‚Ìƒ†[ƒU[‚ÌƒAƒNƒVƒ‡ƒ“‚É‚æ‚Á‚ÄCODAP‚ªƒvƒ‰ƒOƒCƒ“‚É’Ê’m‚·‚é‚±‚Æ‚É‚È‚èAƒvƒ‰ƒOƒCƒ“‚Íƒ†[ƒU[‚ÖƒtƒB[ƒhƒoƒbƒN‚ğ‘—M‚µ‚Ü‚·B'
+    'ã“ã®CODAPç ”ä¿®ç”¨ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã¯æ–°ã—ã„CODAPãƒ¦ãƒ¼ã‚¶ãƒ¼ã®ãŸã‚ã«ä½œã‚‰ã‚Œã¾ã—ãŸã€‚iFrameã¨ã—ã¦å‹•ã„ã¦ã„ã¾ã™ã€‚ç‰¹å®šã®ãƒ¦ãƒ¼ã‚¶ãƒ¼ã®ã‚¢ã‚¯ã‚·ãƒ§ãƒ³ã«ã‚ˆã£ã¦CODAPãŒãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã«é€šçŸ¥ã™ã‚‹ã“ã¨ã«ãªã‚Šã€ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã¯ãƒ¦ãƒ¼ã‚¶ãƒ¼ã¸ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯ã‚’é€ä¿¡ã—ã¾ã™ã€‚'
   ),
   React.createElement(
     'p',
     null,
-    'ƒI[ƒvƒ“ƒ\[ƒXƒR[ƒh‚Í',
+    'ã‚ªãƒ¼ãƒ—ãƒ³ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯',
     React.createElement('br', null),
     React.createElement(
       'a',
@@ -224,12 +224,12 @@ infoFeedback = React.createElement(
         target: '_blank' },
       'CODAP\'s data interactive GitHub repository.'
     ),
-    '‚É‚ ‚è‚Ü‚·B '
+    'ã«ã‚ã‚Šã¾ã™ã€‚ '
   ),
   React.createElement(
     'p',
     null,
-    '‚±‚Ìƒvƒ‰ƒOƒCƒ“‚Íthe CODAP data interactive plugin API‚ğg—p‚µ‚Ä‚¢‚Ü‚·B',
+    'ã“ã®ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã¯the CODAP data interactive plugin APIã‚’ä½¿ç”¨ã—ã¦ã„ã¾ã™ã€‚',
     React.createElement('br', null),
     React.createElement(
       'a',
