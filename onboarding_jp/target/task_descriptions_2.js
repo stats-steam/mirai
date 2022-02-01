@@ -40,12 +40,12 @@ taskDescriptions = {
       React.createElement(
         'p',
         null,
-        'OK. Cases are selected.'
+        'OKです。データが選択されました。'
       ),
       React.createElement(
         'p',
         null,
-        'These are the ones we want to look at more closely.'
+        'これらは、より詳しく見ていきたいデータです。'
       )
     )
   }, {
@@ -59,12 +59,12 @@ taskDescriptions = {
       React.createElement(
         'p',
         null,
-        'That very nicely got those other cases out of the way.'
+        '選択されていない他のケースはすっきりと片付きました。'
       ),
       React.createElement(
         'p',
         null,
-        'It\\\'s possible that the graph needs rescaling.'
+        '次はグラフの大きさを変える必要があるかもしれません。'
       )
     )
   }, {
