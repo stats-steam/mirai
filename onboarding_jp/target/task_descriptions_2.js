@@ -68,7 +68,7 @@ taskDescriptions = {
       )
     )
   }, {
-    key: 'Deselect', label: 'Deselect all cases, including the ones in the table.',
+    key: 'Deselect', label: '表中のデータを含むすべてのデータを選択解除します。',
     url: './resources/Deselect.mp4',
     operation: 'selectCases',
     constraints: [{ property: 'cases', value: false }],
@@ -88,7 +88,7 @@ taskDescriptions = {
       )
     )
   }, {
-    key: 'Rescale', label: 'Rescale the graph.',
+    key: 'Rescale', label: 'グラフの大きさを修正してください。',
     url: './resources/Rescale.mp4',
     operation: 'rescaleGraph', type: '',
     prereq: 'HideUnselected',
@@ -108,7 +108,7 @@ taskDescriptions = {
       )
     )
   }, {
-    key: 'MakeLegend', label: 'Add Sex as a legend to the scatterplot.',
+    key: 'MakeLegend', label: '散布図に性別を凡例として追加してください。',
     url: './resources/MakeLegend.mp4',
     operation: 'legendAttributeChange', type: 'DG.GraphModel',
     constraints: [{ property: 'attributeName', value: 'Sex' }],
