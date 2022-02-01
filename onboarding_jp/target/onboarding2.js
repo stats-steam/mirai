@@ -278,7 +278,7 @@ class TutorialView extends React.Component {
       }.bind(this));
     }.bind(this),
         handleLegendAttributeChange = function () {
-      if (iNotification.values.type === 'DG.GraphModel' && iNotification.values.attributeName === 'Sex') this.handleAccomplishment('MakeLegend');
+      if (iNotification.values.type === 'DG.GraphModel' && iNotification.values.attributeName === '性別') this.handleAccomplishment('MakeLegend');
     }.bind(this),
         handleDataContextCountChanged = function () {
       codapInterface.sendRequest({
@@ -385,7 +385,7 @@ function getStarted() {
 
   codapInterface.init({
     title: "Getting started with CODAP",
-    version: "1.10",
+    version: "1.11",
     dimensions: {
       width: 600,
       height: 550
