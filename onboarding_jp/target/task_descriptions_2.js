@@ -111,7 +111,7 @@ taskDescriptions = {
     key: 'MakeLegend', label: '散布図に性別を凡例として追加してください。',
     url: './resources/MakeLegend.mp4',
     operation: 'legendAttributeChange', type: 'DG.GraphModel',
-    constraints: [{ property: 'attributeName', value: 'Sex' }],
+    constraints: [{ property: 'attributeName', value: '性別' }],
     prereq: 'MakeScatterplot',
     feedback: React.createElement(
       'div',
