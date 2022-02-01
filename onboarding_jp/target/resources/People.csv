@@ -6,7 +6,7 @@
 # attribute -- name: Education
 # attribute -- name: BMI
 # attribute -- name: Weight, unit: kg
-性別,年齢身長,出身地,教育,BMI,体重
+性別,年齢,身長,出身地,教育,BMI,体重
 男性,1,,USA,,,10.8
 男性,35,178.9,USA,HS incl GED,28.12,90
 女性,34,151,Mexico,Less than HS,24.34,55.5

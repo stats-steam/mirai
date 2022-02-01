@@ -13,19 +13,19 @@ taskDescriptions = {
       React.createElement(
         'p',
         null,
-        'Great scatterplot! Hopefully you have ',
+        '',
         React.createElement(
           'em',
           null,
           'height'
         ),
-        ' on the vertical axis and ',
+        '',
         React.createElement(
           'em',
           null,
           'age'
         ),
-        ' on the horizontal axis.'
+        ' 素晴らしい散布図ですね。縦軸に身長、横軸に年齢があるといいですね。'
       )
     )
   }, {
