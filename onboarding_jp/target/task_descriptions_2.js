@@ -1,9 +1,9 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-hasMouse = !('ontouchstart' in window);
+hasMouse = false; //!('ontouchstart' in window);
 
 taskDescriptions = {
   descriptions: [{
-    key: 'MakeScatterplot', label: 'Make a scatterplot of height vs age.',
+    key: 'MakeScatterplot', label: '身長vs年齢の散布図を作ってください。',
     url: './resources/MakeScatterplot.mp4',
     operation: 'attributeChange', type: '',
     requiresSpecialHandling: true,
@@ -29,7 +29,7 @@ taskDescriptions = {
       )
     )
   }, {
-    key: 'SelectCases', label: 'Drag a selection rectangle around a subset of the points.',
+    key: 'SelectCases', label: '選択範囲をドラッグして複数のポイントを囲んでください。',
     url: './resources/SelectCases.mp4',
     operation: 'selectCases',
     constraints: [{ property: 'cases', value: true }],
@@ -49,7 +49,7 @@ taskDescriptions = {
       )
     )
   }, {
-    key: 'HideUnselected', label: 'Hide the unselected cases.',
+    key: 'HideUnselected', label: '選択されていないデータを非表示にしてください。',
     url: './resources/HideUnselected.mp4',
     operation: 'hideUnselected', type: '',
     prereq: 'SelectCases',
@@ -211,25 +211,25 @@ infoFeedback = React.createElement(
   React.createElement(
     'p',
     null,
-    'This onboarding plugin for CODAP was created to help new CODAP users get started using CODAP. It lives in CODAP as an iFrame. Certain user actions cause CODAP to notify the plugin. The plugin responds by providing feedback to the user.'
+    'このCODAP研修用プラグインは新しいCODAPユーザーのために作られました。iFrameとして動いています。特定のユーザーのアクションによってCODAPがプラグインに通知することになり、プラグインはユーザーへフィードバックを送信します。'
   ),
   React.createElement(
     'p',
     null,
-    'The open source code is at',
+    'オープンソースコードは',
     React.createElement('br', null),
     React.createElement(
       'a',
       { href: 'https://github.com/concord-consortium/codap-data-interactives/tree/master/onboarding',
         target: '_blank' },
-      'CODAP\'s data interactive GitHub repository'
+      'CODAP\'s data interactive GitHub repository.'
     ),
-    '. '
+    'にあります。 '
   ),
   React.createElement(
     'p',
     null,
-    'This plugin makes use of the CODAP data interactive plugin API whose documentation is at',
+    'このプラグインはthe CODAP data interactive plugin APIを使用しています。',
     React.createElement('br', null),
     React.createElement(
       'a',
