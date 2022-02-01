@@ -96,7 +96,7 @@ class DraggableLink extends React.Component {
 
   handleDragStart(event) {
     let dt = event.dataTransfer,
-        tUrl = window.location.href.replace(/\/[^\/]*$/, "") + "/resources/school.csv";
+        tUrl = window.location.href.replace(/\/[^\/]*$/, "") + "/resources/People.csv";
     dt.setData("text/uri-list", tUrl);
     dt.setData('text', tUrl);
     dt.effectAllowed = 'all';
@@ -385,9 +385,9 @@ function getStarted() {
 
   codapInterface.init({
     title: "Getting started with CODAP",
-    version: "1.07",
+    version: "1.09",
     dimensions: {
-      width: 500,
+      width: 600,
       height: 550
     },
     preventDataContextReorg: false
@@ -400,7 +400,7 @@ function getStarted() {
       action: 'create',
       resource: 'dataContextFromURL',
       values: {
-        URL: window.location.href.replace(/\/[^\/]*$/, "") + "/resources/school.csv"
+        URL: window.location.href.replace(/\/[^\/]*$/, "") + "/resources/People.csv"
       }
     }).then(function (iResult) {
       console.log('Created data context from URL');
