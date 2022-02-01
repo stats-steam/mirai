@@ -70,7 +70,7 @@ taskDescriptions = {
           null,
           ''
         ),
-        ' グラフの軸に属性をクリック＆ドラッグして動かせましたね！'
+        ' グラフの上部をドラッグして動かせましたね！'
       ),
       React.createElement(
         'p',
@@ -206,30 +206,31 @@ allAccomplishedFeedback = React.createElement(
   React.createElement(
     'p',
     null,
-    'You can do a ',
+    '',
     React.createElement(
       'em',
       null,
-      'lot'
+      ''
     ),
-    ' with just those five skills!'
+    'この4つのスキルだけでたくさんのことができます！'
   ),
   React.createElement(
     'p',
     null,
-    'この4つのスキルだけでたくさんのことができます！　もっとCODAPについて知りたい場合は、 ',
+    'もっとCODAPについて知りたい場合は、 ',
     React.createElement(
       'a',
       { href: 'https://codap.concord.org/help/', target: '_blank' },
       'CODAP Help'
     ),
     'ページへ'
-  ),
+  )
+  /*,
   React.createElement(
     'button',
     { onClick: this.startOver },
     'Start Over'
-  )
+  )*/
 );
 
 infoFeedback = React.createElement(
