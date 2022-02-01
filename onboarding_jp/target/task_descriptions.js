@@ -52,7 +52,7 @@ taskDescriptions = {
       React.createElement(
         'p',
         null,
-        'まだデータをドラッグしてないので、ポイントがありません。'
+        'まだデータをドラッグしてないので、ポイント（点）はありません。'
       )
     )
   }, {
@@ -70,7 +70,7 @@ taskDescriptions = {
           null,
           ''
         ),
-        ' そのコンポーネントのタイトルバーをクリック＆ドラッグしてください。'
+        ' グラフの軸に属性をクリック＆ドラッグして動かせましたね！'
       ),
       React.createElement(
         'p',
@@ -81,7 +81,7 @@ taskDescriptions = {
           null,
           ''
         ),
-        ' エッジや下部の角をドラッグすることで、大きさを変えることができます。'
+        ' グラフの右下の角をドラッグすることで大きさを変えることができます。'
       )
     )
   },
@@ -103,17 +103,17 @@ taskDescriptions = {
       React.createElement(
         'p',
         null,
-        'ケーステーブルからグラフ軸に属性をドラッグしました。'
+        'よくできました！表からグラフ軸に属性をドラッグできました。'
       ),
       React.createElement(
         'p',
         null,
-        'これで、ポイントはその属性値に従って軸に沿って配置されたことになります。。'
+        'これで、ポイント（点）は属性値に従って配置されました！'
       ),
       React.createElement(
         'p',
         null,
-        'この属性を他の属性に置き換えたり、属性を他のグラフ軸にドラッグして散布図にすることができます。'
+        '他の属性値に置き換えたり、別のグラフ軸にドラッグすることで散布図を作ることができます。'
       )
     )
   }, {
@@ -124,7 +124,7 @@ taskDescriptions = {
       React.createElement(
         'p',
         null,
-        'よくできました！グラフに2つ目の属性をドラッグしました。'
+        'やりましたね！2つ目の属性をグラフにドラッグしました。'
       ),
       React.createElement(
         'p',
@@ -135,12 +135,12 @@ taskDescriptions = {
           null,
           ''
         ),
-        ' 1つのグラフに2つの属性を表示することができました。'
+        ' 1つのグラフに2つの属性が表示された2変量のグラフです。'
       ),
       React.createElement(
         'p',
         null,
-        'どちらかの属性を別の属性に置き換えたり、グラフの真ん中に属性をドラッグしてポイントの凡例を作ったりすることができます。'
+        'どちらかの属性を違う属性に置き換えたり、グラフの中央に属性をドラッグすると凡例をつくることもできます。'
       )
     )
   }],
@@ -172,7 +172,7 @@ allAccomplishedFeedback = React.createElement(
   React.createElement(
     'p',
     null,
-    'Congratulations! You\'ve done the following:'
+    'おめでとうございます！あなたは以下のすべてを達成しました:'
   ),
   React.createElement(
     'ul',
@@ -180,27 +180,27 @@ allAccomplishedFeedback = React.createElement(
     React.createElement(
       'li',
       null,
-      'Dragged data into CODAP'
+      'CODAPにデータをドラッグする'
     ),
     React.createElement(
       'li',
       null,
-      'Made a graph'
+      'グラフを作成する'
     ),
     React.createElement(
       'li',
       null,
-      'Moved a component'
+      '表やグラフを移動させる'
     ),
     React.createElement(
       'li',
       null,
-      'Plotted an attribute on a graph axis'
+      '属性をグラフの軸にいれる'
     ),
     React.createElement(
       'li',
       null,
-      'Made a graph show values for two attributes'
+      'グラフに2つの属性値を表示する'
     )
   ),
   React.createElement(
@@ -217,13 +217,13 @@ allAccomplishedFeedback = React.createElement(
   React.createElement(
     'p',
     null,
-    'For more information about how to work with CODAP, visit the ',
+    'この4つのスキルだけでたくさんのことができます！　もっとCODAPについて知りたい場合は、 ',
     React.createElement(
       'a',
       { href: 'https://codap.concord.org/help/', target: '_blank' },
       'CODAP Help'
     ),
-    ' page. '
+    'ページへ'
   ),
   React.createElement(
     'button',
@@ -238,25 +238,25 @@ infoFeedback = React.createElement(
   React.createElement(
     'p',
     null,
-    'This onboarding plugin for CODAP was created to help new CODAP users get started using CODAP. It lives in CODAP as an iFrame. Certain user actions cause CODAP to notify the plugin. The plugin responds by providing feedback to the user.'
+    'このCODAP研修用プラグインは新しいCODAPユーザーのために作られました。iFrameとして動いています。特定のユーザーのアクションによってCODAPがプラグインに通知することになり、プラグインはユーザーへフィードバックを送信します。'
   ),
   React.createElement(
     'p',
     null,
-    'The open source code is at',
+    'オープンソースコードは',
     React.createElement('br', null),
     React.createElement(
       'a',
       { href: 'https://github.com/concord-consortium/codap-data-interactives/tree/master/onboarding',
         target: '_blank' },
-      'CODAP\'s data interactive GitHub repository'
+      'CODAP's data interactive GitHub repository.'
     ),
-    '. '
+    'にあります。 '
   ),
   React.createElement(
     'p',
     null,
-    'This plugin makes use of the CODAP data interactive plugin API whose documentation is at',
+    'このプラグインはthe CODAP data interactive plugin APIを使用しています。',
     React.createElement('br', null),
     React.createElement(
       'a',
