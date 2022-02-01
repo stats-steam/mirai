@@ -249,7 +249,7 @@ infoFeedback = React.createElement(
       'a',
       { href: 'https://github.com/concord-consortium/codap-data-interactives/tree/master/onboarding',
         target: '_blank' },
-      'CODAP's data interactive GitHub repository.'
+      'CODAP\'s data interactive GitHub repository.'
     ),
     'にあります。 '
   ),
